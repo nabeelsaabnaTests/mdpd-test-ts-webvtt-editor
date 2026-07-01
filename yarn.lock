@@ -3550,12 +3550,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:*, prettier@npm:3.4.2":
+"prettier@npm:*":
   version: 3.4.2
   resolution: "prettier@npm:3.4.2"
   bin:
     prettier: bin/prettier.cjs
   checksum: 10c0/99e076a26ed0aba4ebc043880d0f08bbb8c59a4c6641cdee6cdadf2205bdd87aa1d7823f50c3aea41e015e99878d37c58d7b5f0e663bba0ef047f94e36b96446
+  languageName: node
+  linkType: hard
+
+"prettier@npm:3.9.1":
+  version: 3.9.1
+  resolution: "prettier@npm:3.9.1"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/036bd6dadad577356440945deb3271668c6b6e4094e2873ffa54e14131c21915d4eefad94f53d21a08776aa1c0f5a40dcb01151c2af753f9596e15f5e97fad9d
   languageName: node
   linkType: hard
 
@@ -3927,7 +3936,7 @@ __metadata:
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:9.1.0"
     parcel: "npm:2.13.2"
-    prettier: "npm:3.4.2"
+    prettier: "npm:3.9.1"
     typescript: "npm:5.7.2"
     util: "npm:0.12.5"
   languageName: unknown
